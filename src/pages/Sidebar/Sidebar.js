@@ -85,7 +85,7 @@ const result = user[0]?.email?.split('@')[0];
                     </MenuItem>
                     <Divider/>
                     <MenuItem onClick={handleClose}>Add an existing account</MenuItem>
-                    <MenuItem onClick={handleLogout}>Log out @irtiqa_yousuf</MenuItem>
+                    <MenuItem onClick={handleLogout}>Log out @{result}</MenuItem>
                  </Menu>
                </div>
             </div>
